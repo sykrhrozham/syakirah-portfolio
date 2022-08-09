@@ -1,0 +1,290 @@
+@import url("font.css");
+@import url("../webfonts/DM_Serif_Display/stylesheet.css");
+/* CSS Document */
+
+html {scroll-behavior: smooth;}
+
+/* ID */
+
+body {margin: 0; min-width: 1440px;}
+#outer 		{fixed-width: 1440px;}
+
+
+/* stroke */
+
+#topnav ul li a,
+#topnav ul li a {
+  position: relative;
+}
+#topnav ul li a:after,
+#topnav ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;}
+
+#topnav ul li a:hover:after {width: 100%;}
+
+#topnav 			{clear: both; min-width: 1440px; height: 50px; margin: 0; background-color: #FED1BE; padding: 20px; }
+#topnav ul li		{display: inline;}
+#topnav ul li a 	{padding: 0 30px; text-decoration: none;}
+#topnav a:link 		{color: #444444;}
+#topnav a:visited 	{color: #444444;}
+#topnav a:active 	{color: #444444;}
+#topnav a:focus 	{color: #444444;}
+#topnav a:hover 	{color: #ffc333;}
+#topnav img 		{padding: 0 0 20px 30px;}
+
+
+
+#section-1 		{background-size: cover; display: flex; background-color: #f2e5d9; margin: auto; padding-bottom: 0; 
+				height: 506px;  margin-bottom: -5%; min-width: 900px;}
+
+#section-1 img 	{margin-left: 100px;}
+
+#section-2 		{margin-top: 0; background-color: #fff; margin-bottom: -5%; padding-bottom: 30px;}
+
+#section-3 		{background-size: cover; margin-bottom: -0.5%; background-color: #ffebe8; padding-top: 0;}
+
+#section-3 h2 	{text-align: center; margin-bottom: 0; padding-bottom: 0;}
+
+#section-4 		{background-size: cover; background-color: #fff; justify-content: center; align-content: center;
+				 padding-bottom: 100px; padding-top: 60px;}
+
+
+#container-footer 	{display: flex; justify-content: center; }
+#footer 			{background-size: cover; background-color: #FED1BE; clear: both; }
+#footer p 			{text-decoration: none; padding-bottom: 10px;}
+
+h1 {
+    font-family: "DM Serif Display";
+    font-size: 60px;
+    color: #ffc333;
+}
+h2 {
+    font-family: "DM Serif Display";
+    font-size: 43px;
+    color: #55827e;
+}
+h3 {font-family: "Nexa Rust Sans Black"; font-size: 18px; }
+h4 {font-family: "Nexa Rust Sans Black"; font-size: 12px; }
+h5 {
+    font-family: "DM Serif Display";
+    font-size: 43px;
+    color: #EC92AB;
+}
+
+p  {font-family: "Montserrat"; font-size: 15px; padding-top: 0;}
+p2 {font-family: "Montserrat"; font-size: 15px; padding-top: 0; text-align: center; align-content: center; }
+
+ul {font-family: "Montserrat Medium"; font-size: 15px; float: right;}
+
+
+
+
+/*Class*/
+
+.gambarSyaki {margin-top: 30px;}
+.iconcenter				{display: flex;}
+.iconcenter a i:hover 	{color: #fff;}
+
+.footer-r 	{width: 45%;  margin-left: 1000px; align-content: flex-start; padding-top: 30px; padding-bottom: 30px;}
+.footer-r a {align-items: center; text-decoration: none; color: #fff; padding: 0 4px;}
+.footer-r p {margin-left: 60px; color: #fff;}
+
+
+.footer-l {width: 45%; margin-left: 50px; padding-top: 60px;}
+
+.three-img 			 {display: flex; align-content: center; margin-top: 30px; }
+.three-img img:hover {filter: drop-shadow(0 0 10px #ffc333);}
+.three-img img 		 {margin-left: auto; margin-right: auto; }
+.three-img p		 {margin-left: auto; margin-right: auto; text-align: center; }
+
+.three-img2 			{display: flex; align-content: center; margin-top: 30px; }
+.three-img2 img:hover 	{filter: drop-shadow(0 0 10px #ffc333);}
+.three-img2 img 		{margin-left: auto; margin-right: auto; border-radius: 50px; }
+.three-img2 p			{margin-left: auto; margin-right: auto; text-align: center; }
+
+
+.center				{margin-left: auto; margin-right: auto;}
+.center2 			{margin-right: 70px; display: flex;}
+.center3			{margin-top: 30px; margin-left: -10px;}
+.center4 			{margin-top: 30px; margin-left: -10px;}
+.center5 			{margin-left: 650px; margin-top: 30px;}
+
+.mai-homepage 		{margin-left: 5%; margin-bottom: -5%; margin-top: 30px;}
+
+.worktgt 			{text-align: center; justify-content: center;}
+.worktgt h5 		{padding-top: 50px; margin-bottom: 30px;}
+.worktgt p 			{padding-bottom: 30px;}
+
+
+
+.my-specialties	 	{}
+.my-specialties p 	{text-align: center; padding: 5px 0;}
+.my-specialties h5 	{text-align: center; padding-top: 50px; margin-bottom: 0;}
+
+.text-banner 	{position: absolute; top: 100px; margin-bottom: 0; padding-top: 50px; right: 200px;}
+.text-banner h1 {line-height: 0.5;}
+.text-banner p 	{margin-bottom: 30px;}
+
+.main-heading {display: flex;}
+
+.skillset 		{}
+.skillset2	 	{display: flex; justify-content: center; }
+.skillset h5 	{text-align: center; margin-top: 50px 0; padding-top: 50px; padding-bottom: -10%;}
+.skillset p 	{text-align: center; color: #55827e; padding-bottom: 30px; padding-top: -2%;}
+.skillset p2 	{color: #00000; padding-bottom: 30px;}
+
+
+
+.button-3 			{ background-color: #D09A9A; border-radius: 20px; color: #fff; transition: .3s; font-family: 								"Montserrat"; font-size: 14px; padding: 10px; box-sizing: 30px; width: 130px; text-decoration:none;
+					text-align: center; margin: 0 15px;}
+.button-3 a 		{text-decoration: none; text-align: center;}
+.button-3 a:link 	{color: #fff;}
+.button-3 a:visited {color: #fff;}
+.button-3 a:active 	{color: #fff;}
+.button-3 a:focus 	{color: #fff;}
+.button-3 a:hover 	{color: #f2e5d9;}
+.button-3 a:hover 	{color: #fff;}
+.button-3:hover {box-shadow: 8px 8px #3b3c3a; font-family: "Montserrat"; font-size: 14px; transition: .3s; text-decoration: none; }
+
+.topnavImage 	{margin-top: -23px;}
+
+/*progress bar*/
+
+.progress-section {margin-left: 70px; margin-bottom: 50px; padding-top: 50px; }
+.progress-section2 {margin-left: 70px; margin-bottom: 50px;  }
+
+
+.progress a {margin: 20px 0;}
+.progress p2 	{padding-bottom: 10px;}
+.progress body {
+  justify-content: center;
+  align-items: center;
+  background: #EC92AB;
+  display: flex;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.progress {
+  background: #D09A9A;
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 40px;
+  width: 500px; margin: 0 20px 10px 0;
+}
+
+.progress {
+  background: #D09A9A;
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 40px;
+  width: 500px; margin: 0 20px 10px 0;
+}
+
+.progress-value {
+  animation: load 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0; 
+}
+
+@keyframes load { 0% { width: 0; } 100% { width: 90%; }}
+
+.progress-value2 {
+  animation: load2 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0; 
+}
+
+@keyframes load2 { 0% { width: 0; } 100% { width: 90%; }}
+
+.progress-value3 {
+  animation: load3 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0; 
+}
+
+@keyframes load3 { 0% { width: 0; } 100% { width: 70%; }}
+
+.progress-value4 {
+  animation: load4 3s normal forwards;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0; 
+}
+
+@keyframes load4 { 0% { width: 0; } 100% { width: 60%; }}
+
+.progress-value5 {
+  animation: load5 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0; 
+}
+
+@keyframes load5 { 0% { width: 0; } 100% { width: 70%; }}
+
+.progress-value6 {
+  animation: load6 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0; 
+}
+
+@keyframes load6 { 0% { width: 0; } 100% { width: 86%; }}
+
+.progress-value7 {
+  animation: load7 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0; 
+}
+
+@keyframes load7 { 0% { width: 0; } 100% { width: 64%; }}
+
+.progress-value8 {
+  animation: load8 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0; }
+
+@keyframes load8 { 0% { width: 0; } 100% { width: 85%; }}
+
+
+.footer {text-decoration: none; float: right;}
+

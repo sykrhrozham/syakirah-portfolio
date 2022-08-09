@@ -1,0 +1,166 @@
+@import url("../webfonts/DM_Serif_Display/stylesheet.css");
+/* CSS Document */
+html {scroll-behavior: smooth;}
+/* ID */
+
+body {margin: 0; min-width: 1440px;}
+
+
+/* stroke */
+
+
+#topnav ul li a,
+#topnav ul li a {
+  position: relative;
+}
+#topnav ul li a:after,
+#topnav ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;}
+
+#topnav ul li a:hover:after {width: 100%;}
+
+#topnav 			{clear: both; min-width: 1440px; height: 50px; margin: 0; background-color:#FED1BE; padding: 20px;}
+#topnav ul li		{display: inline;}
+#topnav ul li a 	{padding: 0 30px; text-decoration: none;}
+#topnav a:link 		{color: #444444;}
+#topnav a:visited 	{color: #444444;}
+#topnav a:active 	{color: #444444;}
+#topnav a:focus 	{color: #444444;}
+#topnav a:hover 	{color: #ffc333;}
+#topnav img 		{padding: 0 0 20px 30px;}
+
+
+#section-1 { background-size: cover; margin: auto; padding-bottom: 0; min-width: 900px; height: 505px; display: flex; background-color: #ffebe8; margin-bottom: -5%;}
+#section-1 img {padding: 0; margin-bottom: 0; margin-top: 0; }
+
+#section-2 {margin-top: 0; background-color: #f2e5d9; margin-bottom: -5%; padding-bottom: 0; height: 450px;}
+
+
+
+#section-3 {background-size: cover; background-color: #fff; margin-bottom: -2%; height: 800px;}
+
+
+#container-footer {display: flex; justify-content: center; }
+#footer 	{background-size: cover; background-color: #FED1BE; clear: both; }
+#footer p 	{text-decoration: none; padding-bottom: 10px;}
+
+h1 {
+    font-family: "DM Serif Display";
+    font-size: 60px;
+    color: #ffc333;
+}
+h2 {
+    font-family: "DM Serif Display";
+    font-size: 43px;
+    color: #55827e;
+}
+h3 {font-family: "Nexa Rust Sans Black"; font-size: 18px; }
+h4 {font-family: "Nexa Rust Sans Black"; font-size: 12px; }
+h5 {
+    font-family: "DM Serif Display";
+    font-size: 43px;
+    color: #ffc333;
+}
+
+p {font-family: "Montserrat"; font-size: 15px; padding-top: 0;}
+p2 {font-family: "Montserrat"; font-size: 15px; padding-top: 0; text-align: center; align-content: center;}
+
+ul {font-family: "Montserrat Medium"; font-size: 15px; float: right;}
+
+
+
+
+/*Class*/
+
+.iconcenter				{display: flex;}
+.iconcenter a i:hover 	{color: #fff;}
+
+.footer-r 	{width: 45%;  margin-left: 1000px; align-content: flex-start; padding-top: 30px; padding-bottom: 30px;}
+.footer-r a {align-items: center; text-decoration: none; color: #fff; padding: 0 4px;}
+.footer-r p {margin-left: 60px; color: #fff;}
+
+
+.footer-l {width: 45%; margin-left: 50px; padding-top: 60px;}
+
+.three-img 			{display: flex; align-content: center; margin-top: 30px; }
+.three-img img:hover {filter: drop-shadow(0 0 10px #ffc333);}
+.three-img img 		{margin-left: auto; margin-right: auto; justify-content: center;}
+.three-img p		{margin-left: auto; margin-right: auto; text-align: center; }
+
+.three-img2 			{justify-content: center; display: flex; align-content: center; margin-top: 30px; }
+.three-img2 img:hover {filter: drop-shadow(0 0 10px #ffc333);}
+.three-img2 img 		{margin-left: auto; margin-right: auto; border-radius: 50px; }
+.three-img2 p		{margin-left: auto; margin-right: auto; text-align: center; }
+
+
+.center				{margin-left: auto; margin-right: auto;}
+.center2 			{display: flex;}
+.center3			{margin-top: 30px; margin-left: -10px;}
+.center4 			{margin-top: 30px; margin-left: -10px;}
+.center5 			{margin-left: 650px; margin-top: 30px;}
+
+.mai-homepage 		{margin-left: 5%; margin-bottom: -5%; margin-top: 30px;}
+
+.worktgt 			{text-align: center; justify-content: center;}
+.worktgt h5 		{margin-bottom: 40px; margin-top: 30px;}
+.worktgt p 			{padding-bottom: 30px;}
+
+
+.interested			{text-align: center;}
+.interested-text	{margin-left: 170px; margin-top: 50px;}
+.interested-img		{float: right; margin-left: 300px; margin-bottom: 0%; }
+.interested	h2		{margin-left: 100px; display: flex;}
+.interested	h5		{text-align: center; padding-top: 100px; margin-bottom: 0;}
+.interested p 		{margin-left: 100px; display: flex;}
+
+.drawing		{}
+.drawing-head 	{}
+.drawing h5 	{text-align: center; color: #55827e; padding-top: 50px;}
+.drawing-text	{margin-left: 170px;}
+.drawing p		{}
+
+.myworks		{text-align: center; }
+.myworks h5 	{padding-top: 50px; margin-bottom: 30px;}
+.myworks p2 	{padding-bottom: 30px;}
+.myworks-img 	{display: flex;}
+
+.my-specialties	 	{}
+.my-specialties p 	{text-align: center; padding: 5px 0;}
+.my-specialties h5 	{text-align: center; padding-top: 50px; margin-bottom: 0;}
+
+.text-banner 	{clear: both; float: right; margin-left: 150px; padding-top: 40px; margin-bottom: 0;}
+.text-banner h1 {line-height: 0.5;}
+.text-banner p 	{margin-bottom: 30px;}
+
+.main-heading {display: flex;}
+
+.line 			{width: 10px; height: 420px; position: absolute; left: 70px; top: 3385px; background-color: #ffc333;}
+
+.line2 			{width: 10px; height: 500px; position: absolute; left: 70px; top: 1200px; background-color: #f2e5d9;}
+
+
+
+.button-3 			{ background-color: #ffc333; border-radius: 20px; color: #fff; transition: .3s; font-family: 								"Montserrat"; font-size: 14px; padding: 10px; box-sizing: 20px; width: 130px; text-decoration:none; 
+					text-align: center; margin: 0 10px;}
+.button-3 a 		{text-decoration: none; text-align: center;}
+.button-3 a:link 	{color: #444444;}
+.button-3 a:visited {color: #444444;}
+.button-3 a:active 	{color: #444444;}
+.button-3 a:focus 	{color: #444444;}
+.button-3 a:hover 	{color: #ffc333;}
+.button-3 a:hover 	{color: #fff;}
+.button-3:hover {box-shadow: 8px 8px #3b3c3a; font-family: "Montserrat"; font-size: 14px; transition: .3s; text-decoration: none; }
+
+.topnavImage 	{margin-top: -23px;}
+
+.footer {text-decoration: none; float: right;}
+
